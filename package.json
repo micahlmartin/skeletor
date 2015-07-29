@@ -1,0 +1,11 @@
+{
+  "name": "skeletor",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "foreman start -f Procfile.dev"
+  },
+  "author": "Micah Martin <micahlmartin@gmail.com>",
+  "license": "ISC"
+}
