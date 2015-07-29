@@ -35,10 +35,18 @@ Run the migrations:
 
 ## Startup
 
-Make sure boot2docker is running and then start up the database and other services.
+Make sure boot2docker is running:
+
+```boot2docker up```
+
+Start up the database and other services in the background.
 
 ```docker-compose up -d```
 
-You can then run your rails server and any other processes:
+To run all of the processes:
 
 ```npm start```
+
+If you only want to run the rails server:
+
+```./bin/rails s``` 
