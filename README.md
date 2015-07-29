@@ -2,9 +2,12 @@
 
 ## Dependencies
 
+It may be possible to run this with older versions of these dependencies but the listed versions are the one that this has been tested with and built for.
+
 - Ruby >= 2.2.2
 - Docker Compose >= 1.1.0
 - Boot2Docker >= 1.5.0
+- IOJS >= 2.5.0
 
 ## Environment setup
 
@@ -49,4 +52,4 @@ To run all of the processes:
 
 If you only want to run the rails server:
 
-```./bin/rails s``` 
+```./bin/rails s```

@@ -15,4 +15,4 @@
 //= require turbolinks
 //= require_tree .
 
-//=react
+//= require react
