@@ -20,6 +20,18 @@ Install npm packages:
 
 ```npm install```
 
+Make a copy of the database configuration:
+
+```cp config/database.yml.sample config/database.yml```
+
+Create the database:
+
+```./bin/rake db:setup```
+
+Run the migrations:
+
+```./bin/rake db:migrate```
+
 
 ## Startup
 
