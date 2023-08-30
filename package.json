@@ -9,6 +9,6 @@
   "author": "Micah Martin <micahlmartin@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "react": "^0.13.3"
+    "react": "^0.14.10"
   }
 }
