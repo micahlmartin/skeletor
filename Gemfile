@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.3'
+gem 'rails', '7.1.5.2'
 # Use PostgreSQL as the database for Active Record
 gem 'pg', '~> 0.18.2'
 # Use SCSS for stylesheets
@@ -24,7 +24,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Gives the ability serve .jsx assets
-gem 'react-rails', '~> 1.0'
+gem 'react-rails', '~> 1.2', '>= 1.2.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
